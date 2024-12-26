@@ -1,0 +1,92 @@
+#last{
+	width: 100%;
+	justify-content: center;
+	}
+	.full{
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-family: "Raleway", sans-serif;
+
+	}
+	.full h3{
+	font-size: 2rem;
+	display:block;
+	}
+	.lt{
+
+	}
+	.rt{
+
+	}
+	.lt textarea{
+	}
+	button{
+	margin: 2%;
+	}
+	.btn-primary{
+	background-color: #15A089;
+	border: 2px solid white;
+	border-radius: 5%;
+	}
+
+	.btn-primary :hover{
+	border-radius: 5%;
+	}
+
+	.list-item{
+	margin-bottom: 2%;
+	list-style-type: none;
+	}
+	.list-item span{
+	font-size: 1.4rem;
+	}
+	.list-item a{
+	color: black;
+	display: inline-block;
+	}
+	.list-item a:hover{
+	text-decoration: underline;
+	}
+	.form-control{
+	background-color: white;
+	}
+
+	button :hover{
+		background-color: #26ccb0;
+	}
+
+	@media screen and (min-width: 770px){
+	.full{
+		width: 70%;
+	}
+	.lt textarea{
+
+	}
+	}
+
+	@media screen and (min-width: 1100px){
+	.full{
+		width: 65%;
+	}
+	.lt{
+		width: 55%;
+		display: inline-block;
+		float: center;
+	}
+	.rt{
+		width: auto;
+		display: inline-block;
+	}
+	.list-item{
+	margin-bottom: 10%;
+	}
+	.contact-list{
+	}
+	.fa-envelope, .hotmail{
+		display: inline-block;
+		width: auto;
+	}
+	}
